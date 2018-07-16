@@ -1,0 +1,174 @@
+/*
+Table of Contents
+ 1) Body
+ 2) Header
+ 3) Main
+ 		3.1 IMG + text
+ 		3.2 Button
+ 		3.3 Pick Colors
+ 		3.4 Projects
+ 4) Footer
+*/
+
+	/* 1) Body */
+body {
+	/* background from https://uigradients.com/#VelvetSun */
+	background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: #aeaec8;
+	font-family: "Montserrat", sans-serif;
+}
+
+.nopadding {
+	margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+h2 {
+	background: linear-gradient(to right, #26262b, #323232);
+	font-size: 5vw;
+	text-align: center;
+}
+
+	/* 2) Header */
+.logo {
+	width: 17vw;
+}
+
+.name {
+	line-height: 100%;
+	font-size: 7vw;
+	padding-top: 3.5vw;
+	text-align: right;
+}
+
+hr {
+	border: 1px solid #aeaec8;
+	margin: 0;
+}
+
+	/* 3) MAIN */
+
+	/*3.1 IMG + text*/
+.overlay {
+	height: 100%;
+	padding: 0;
+	position: relative;
+	width: 100%;
+	z-index: 1;
+}
+
+.overlay img {
+	width: 100%;
+}
+
+.overlay p {
+	font-size: 6vw;
+	font-weight: 700;
+	padding: 10% 5% 0 55%;
+	position: absolute;
+	text-align: right;
+	top: 0;
+	z-index: 1000;
+}
+
+	/* 3.2 Button */
+.btn_section {
+	text-align: center;
+}
+
+button {
+	background: #aeaec8;
+	border: none;
+	font-size: 3.5vw;
+	font-weight: 700;
+	letter-spacing: 0.04em;
+	margin: 2% 0 4% 0;
+	outline: none;
+	padding: 1.5%;
+	text-transform: uppercase;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+button:hover {
+	background-color: #26262b;
+	color: #aeaec8;
+}
+
+button:focus {
+	outline: none;
+}
+
+	/* 3.3 Pick Colors */
+.shape p {
+	font-size: 2.9vw;
+	padding-top: 7%;
+	text-align: center;
+}
+
+.shape {
+	width: 50%;
+	margin: 5% auto;
+}
+
+.circle {
+	border: 2px solid #aeaec8;
+	border-radius: 50%;
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 50%;
+	-webkit-transition: background 0.5s;
+	-moz-transition: background 0.5s;
+	transition: background 0.5s;
+	width: 50%;
+}
+
+	/* 3.4 Projects */
+.project {
+	text-align: center;
+}
+
+.project p {
+	font-size: 3.5vw;
+	font-weight: 700;
+	margin: 0;
+}
+
+.project_img {
+    border: 1px solid #aeaec8;
+    border-radius: 4px;
+    outline: none;
+    width: 60%;
+}
+
+.project_img:hover {
+	box-shadow: 0 0 10px 4px #1e1e27;
+}
+
+	/* 4) Footer */
+.footer_fig {
+	text-align: center;
+}
+
+.footer_fig a {
+	color: white;
+}
+
+.social_logo {
+	font-size: 11vw;
+	padding-bottom: 3%;
+}
+
+.social_logo:hover {
+	background-color: #26262b;
+	border-radius: 8%;
+}
+
+.footer_p {
+	font-size: 2.5vw;
+}

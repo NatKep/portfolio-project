@@ -1,0 +1,59 @@
+@media (min-width: 576px) {
+	h2 {
+		line-height: 7vw;
+	}
+
+	button {
+		font-size: 3vw;
+	}
+
+	.shape p {
+		font-size: 2.5vw;
+	}
+}
+
+@media (min-width: 768px) {
+	.logo {
+		width: 15vw;
+	}
+
+	.name {
+		font-size: 5vw;
+	}
+
+	.overlay p {
+		padding: 10% 3% 0 40%;
+	}
+
+	h2 {
+		font-size: 3vw;
+		line-height: 140%;
+	}
+
+	.shapes_headline {
+		font-size: 2.5vw;
+		line-height: 5vw;
+	}
+
+	button {
+		font-size: 1.5vw;
+	}
+
+	.shape p {
+		font-size: 1.75vw;
+	}
+
+	.circle {
+		width: 5vw;
+		height: 5vw;
+		padding-bottom: 3%;
+	}
+
+	.project p {
+		font-size: 2.5vw;
+	}
+
+	.footer_p {
+		font-size: 2vw;
+	}
+}
